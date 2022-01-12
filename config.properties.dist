@@ -1,0 +1,9 @@
+[WHOIS]
+api_key = 
+api_user = 
+api_url = https://jsonwhoisapi.com/api/v1/whois
+domains = domain1.de,domain2.de
+
+[Telegram]
+bot_token = 
+chat_ids = 
