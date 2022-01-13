@@ -4,12 +4,15 @@ Module handles WHOIS-API calls and Telegram-Messages
 """
 from urllib.request import pathname2url
 from datetime import datetime
+from pathlib import Path
+
 import configparser
 import requests
 
 
 config = configparser.RawConfigParser()
-config.read('config.properties')
+p = Path(__file__).with_name('config.properties')
+config.read(p)
 
 whois_dict = dict(config.items('WHOIS'))
 domains_list = whois_dict['domains'].split(",")
