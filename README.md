@@ -1,7 +1,7 @@
 # Domain Checker
 
 Simple Python Script to check if a given list of domains is available.\
-Sends a Telegram Message via Bot to a list of Telegram IDs
+Sends a Telegram Message via Bot to a list of Telegram IDs for each available domain
 
 ## Setup
 
